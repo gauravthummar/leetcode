@@ -29,3 +29,6 @@ extension ViewController {
         return -1
     }
 }
+
+//The time complexity of the strStr function is O((m - n + 1) * n), where m is the length of haystack and n is the length of needle. This is because there are (m - n + 1) possible starting positions for needle in haystack, and for each starting position, you need to compare at most n characters.
+//The space complexity is O(1) since the function uses a constant amount of extra space regardless of the input sizes.
