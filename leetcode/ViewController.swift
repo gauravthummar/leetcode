@@ -131,6 +131,42 @@ class ViewController: UIViewController {
         let haystack5 = "abb", needle5 = "abaaa"
         let result5 = strStr(haystack5, needle5)
         print(result5)  // Output: -1
+        
+        print("====18====")
+        let example1 = convert("PAYPALISHIRING", 3)
+        print(example1) // Output: "PAHNAPLSIIGYIR"
+
+        let example2 = convert("PAYPALISHIRING", 4)
+        print(example2) // Output: "PINALSIGYAHRPI"
+
+        let example3 = convert("A", 1)
+        print(example3) // Output: "A"
+        
+        print("====19====")
+        let numsArr1 = [1,3,5,6]
+        let target_1 = 5
+        print(searchInsert(numsArr1, target_1))
+        
+        let numsArr2 = [1,3,5,6]
+        let target_2 = 2
+        print(searchInsert(numsArr2, target_2))
+        
+        let numsArr3 = [1,3,5,6]
+        let target_3 = 7
+        print(searchInsert(numsArr3, target_3))
+        
+        print("====20====")
+        var chars1: [Character] = ["a","a","b","b","c","c","c"]
+        let length1 = compress(&chars1)
+        print("Output 1:", length1, chars1)
+
+        var chars2: [Character] = ["a"]
+        let length2 = compress(&chars2)
+        print("Output 2:", length2, chars2)
+
+        var chars3: [Character] = ["a","b","b","b","b","b","b","b","b","b","b","b","b"]
+        let length3 = compress(&chars3)
+        print("Output 3:", length3, chars3)
     }
 }
 
