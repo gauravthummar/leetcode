@@ -33,6 +33,7 @@
 		22BB0E2E2B98F0BE00A53DA9 /* ZigzagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB0E2D2B98F0BE00A53DA9 /* ZigzagConversion.swift */; };
 		22BB0E302B99080B00A53DA9 /* searchInsertIndexInAaray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB0E2F2B99080B00A53DA9 /* searchInsertIndexInAaray.swift */; };
 		22BB0E322B9915A100A53DA9 /* compressString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB0E312B9915A100A53DA9 /* compressString.swift */; };
+		22BB0E342B9A0CBB00A53DA9 /* rotateMatixImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB0E332B9A0CBB00A53DA9 /* rotateMatixImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		22BB0E2D2B98F0BE00A53DA9 /* ZigzagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagConversion.swift; sourceTree = "<group>"; };
 		22BB0E2F2B99080B00A53DA9 /* searchInsertIndexInAaray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchInsertIndexInAaray.swift; sourceTree = "<group>"; };
 		22BB0E312B9915A100A53DA9 /* compressString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compressString.swift; sourceTree = "<group>"; };
+		22BB0E332B9A0CBB00A53DA9 /* rotateMatixImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotateMatixImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				22BB0E2D2B98F0BE00A53DA9 /* ZigzagConversion.swift */,
 				22BB0E2F2B99080B00A53DA9 /* searchInsertIndexInAaray.swift */,
 				22BB0E312B9915A100A53DA9 /* compressString.swift */,
+				22BB0E332B9A0CBB00A53DA9 /* rotateMatixImage.swift */,
 				22AF0A112B80256300F4ED82 /* Main.storyboard */,
 				22AF0A142B80256600F4ED82 /* Assets.xcassets */,
 				22AF0A162B80256600F4ED82 /* LaunchScreen.storyboard */,
@@ -212,6 +215,7 @@
 				2227DFB02B92628C00818DFC /* findLeastNumOfUniqueInts.swift in Sources */,
 				22AF0A0C2B80256200F4ED82 /* AppDelegate.swift in Sources */,
 				22BB0E2C2B981B1A00A53DA9 /* IndexOfFirstOccurrenceInString.swift in Sources */,
+				22BB0E342B9A0CBB00A53DA9 /* rotateMatixImage.swift in Sources */,
 				2227DFBC2B9287D000818DFC /* minimumMovement.swift in Sources */,
 				2227DFF32B92893500818DFC /* removeDuplicatesFromArray.swift in Sources */,
 				2227DFBE2B92884F00818DFC /* isPalindromeNumber.swift in Sources */,
