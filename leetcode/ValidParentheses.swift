@@ -17,15 +17,21 @@ extension ViewController {
             case "(", "{", "[":
                 stack.append(char) // Push open brackets onto the stack
             case ")":
-                if let last = stack.popLast(), last != "(" {
+                if let last = stack.popLast(), last == "(" {
+                    continue
+                } else {
                     return false // Mismatched closing bracket
                 }
             case "}":
-                if let last = stack.popLast(), last != "{" {
+                if let last = stack.popLast(), last == "{" {
+                    continue
+                } else {
                     return false // Mismatched closing bracket
                 }
             case "]":
-                if let last = stack.popLast(), last != "[" {
+                if let last = stack.popLast(), last == "[" {
+                    continue
+                } else {
                     return false // Mismatched closing bracket
                 }
             default:

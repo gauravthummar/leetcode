@@ -186,6 +186,7 @@ class ViewController: UIViewController {
         print(isValid("()[]{}"))    // Output: true
         print(isValid("(]"))         // Output: false
         print(isValid("]"))         // Output: false
+        print(isValid("({{{{}}}))"))       // Output: false
     }
 }
 
