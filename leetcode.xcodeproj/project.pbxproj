@@ -22,6 +22,7 @@
 		2227DFF12B92891F00818DFC /* longestCommonPrefixInStringArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2227DFF02B92891F00818DFC /* longestCommonPrefixInStringArray.swift */; };
 		2227DFF32B92893500818DFC /* removeDuplicatesFromArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2227DFF22B92893500818DFC /* removeDuplicatesFromArray.swift */; };
 		2227DFF52B928B2500818DFC /* mergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2227DFF42B928B2500818DFC /* mergeTwoLists.swift */; };
+		2278347E2BA10CB30022C184 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278347D2BA10CB30022C184 /* ValidParentheses.swift */; };
 		22AF0A0C2B80256200F4ED82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF0A0B2B80256200F4ED82 /* AppDelegate.swift */; };
 		22AF0A0E2B80256200F4ED82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF0A0D2B80256200F4ED82 /* SceneDelegate.swift */; };
 		22AF0A102B80256200F4ED82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF0A0F2B80256200F4ED82 /* ViewController.swift */; };
@@ -52,6 +53,7 @@
 		2227DFF02B92891F00818DFC /* longestCommonPrefixInStringArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestCommonPrefixInStringArray.swift; sourceTree = "<group>"; };
 		2227DFF22B92893500818DFC /* removeDuplicatesFromArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicatesFromArray.swift; sourceTree = "<group>"; };
 		2227DFF42B928B2500818DFC /* mergeTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeTwoLists.swift; sourceTree = "<group>"; };
+		2278347D2BA10CB30022C184 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		22AF0A082B80256200F4ED82 /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AF0A0B2B80256200F4ED82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22AF0A0D2B80256200F4ED82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				22BB0E2F2B99080B00A53DA9 /* searchInsertIndexInAaray.swift */,
 				22BB0E312B9915A100A53DA9 /* compressString.swift */,
 				22BB0E332B9A0CBB00A53DA9 /* rotateMatixImage.swift */,
+				2278347D2BA10CB30022C184 /* ValidParentheses.swift */,
 				22AF0A112B80256300F4ED82 /* Main.storyboard */,
 				22AF0A142B80256600F4ED82 /* Assets.xcassets */,
 				22AF0A162B80256600F4ED82 /* LaunchScreen.storyboard */,
@@ -204,6 +207,7 @@
 				2227DFC42B9288BB00818DFC /* myAtoi.swift in Sources */,
 				2227DFF12B92891F00818DFC /* longestCommonPrefixInStringArray.swift in Sources */,
 				2227DFB62B92866800818DFC /* lengthOfLongestSubstring.swift in Sources */,
+				2278347E2BA10CB30022C184 /* ValidParentheses.swift in Sources */,
 				2227DFB22B92859500818DFC /* addTwoNumbers_ListNode.swift in Sources */,
 				2227DFC02B92888400818DFC /* romanToInt.swift in Sources */,
 				2227DFF52B928B2500818DFC /* mergeTwoLists.swift in Sources */,
