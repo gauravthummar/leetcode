@@ -187,6 +187,22 @@ class ViewController: UIViewController {
         print(isValid("(]"))         // Output: false
         print(isValid("]"))         // Output: false
         print(isValid("({{{{}}}))"))       // Output: false
+        
+        var team1Runs: String  = ""
+        team1Runs = "x"
+        print(Int(team1Runs) ?? 0)
+        
+        var team2Runs: String  = ""
+        team2Runs = "1"
+        print(Int(team2Runs) ?? 0)
+        
+        var team3Runs: String  = ""
+        team3Runs = ""
+        print(Int(team3Runs) ?? 0)
+        
+        print("====23====")
+        let scores = [98, 100, 35, 75, 73, 81, 86, 75, 100, 75, 35, 75, 17, 98, 100, 35, 75, 73, 81, 86, 125]
+        secondHeighestScoreOccrance(scores: scores)
     }
 }
 
